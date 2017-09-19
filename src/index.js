@@ -6,7 +6,7 @@ import registerServiceWorker from "./registerServiceWorker";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 registerServiceWorker();
-// test
+// test1
 if (module.hot) {
   module.hot.accept("./App", () => {
     ReactDOM.render(<App />, document.getElementById("root"));
