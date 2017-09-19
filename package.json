@@ -15,7 +15,7 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,json,css}": ["prettier --write", "git add"]
+    "*.{js,json,css}": ["prettier --single-quote --write", "git add"]
   },
   "devDependencies": {
     "husky": "^0.14.3",
